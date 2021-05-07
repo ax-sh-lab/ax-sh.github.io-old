@@ -10,7 +10,7 @@ function ErrorFallback({
   resetErrorBoundary,
 }: {
   error: Error;
-  resetErrorBoundary: void;
+  resetErrorBoundary: any;
 }) {
   return (
     <section role="alert" className="error__boundary">
