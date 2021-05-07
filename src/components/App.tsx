@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.scss";
 import Nav from "./Nav";
-import AboutSection from "./AboutSection";
-import WorkSection from "./WorkSection";
+import AboutSection from "./sections/AboutSection";
+import ContactSection from "./sections/ContactSection";
+import WorkSection from "./sections/WorkSection";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Nav />
       <AboutSection />
       <WorkSection />
-      <Noo />
+      <ContactSection />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkSection = () => {
   return (
-    <section>
+    <section className="work">
       <h1>Work</h1>
     </section>
   );
