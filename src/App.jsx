@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        This was a pain to configure it to work with vite.
+        This was a pain to configure it to work with vite. try 2
       </header>
     </div>
   );
