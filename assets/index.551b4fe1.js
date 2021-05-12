@@ -1,0 +1,1 @@
+import{C as e,R as t,a}from"./vendor.19043a99.js";function r(){return e.exports.useState(0),t.createElement("div",{className:"App"},t.createElement("header",{className:"App-header"},"This was a pain to configure it to work with vite. try 2"))}a.render(t.createElement(t.StrictMode,null,t.createElement(r,null)),document.getElementById("root"));
