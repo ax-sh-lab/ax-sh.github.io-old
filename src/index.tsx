@@ -5,7 +5,13 @@ import App from "./components/App";
 
 import { ErrorBoundary } from "react-error-boundary";
 
-function ErrorFallback({ error, resetErrorBoundary }) {
+function ErrorFallback({
+  error,
+  resetErrorBoundary,
+}: {
+  error: Error;
+  resetErrorBoundary: any;
+}) {
   return (
     <section role="alert" className="error__boundary">
       <div className="error__content">
