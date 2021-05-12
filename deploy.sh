@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+# DID NOT WORK AT ALL
 # abort on errors
 set -e
 
