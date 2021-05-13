@@ -8,10 +8,11 @@ import WorkSection from "./sections/WorkSection";
 function App() {
   return (
     <div id="app">
-      <Nav />
+      <h1>Comming Soon</h1>
+      {/* <Nav />
       <AboutSection />
       <WorkSection />
-      <ContactSection />
+      <ContactSection /> */}
     </div>
   );
 }
