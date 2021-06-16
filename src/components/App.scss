@@ -1,29 +1,9 @@
-// $highlight: red;
-// $primary: white;
-// $secondary: #000;
-
-/* SCSS HEX */
-// $charcoal: #264653ff;
-// $persian-green: #2a9d8fff;
-// $orange-yellow-crayola: #e9c46aff;
-// $sandy-brown: #f4a261ff;
-// $burnt-sienna: #e76f51ff;
-
-/* SCSS HSL */
-$charcoal: hsla(197, 37%, 24%, 1);
-$persian-green: hsla(173, 58%, 39%, 1);
-$orange-yellow-crayola: hsla(43, 74%, 66%, 1);
-$sandy-brown: hsla(27, 87%, 67%, 1);
-$burnt-sienna: hsla(12, 76%, 61%, 1);
-
-$links-color: $burnt-sienna;
-$links-color-hover: $persian-green;
-
 #app {
   nav {
     ul {
       list-style: none;
       display: flex;
+      justify-content: flex-end;
       margin-left: auto;
       li {
         &:after {
@@ -34,16 +14,23 @@ $links-color-hover: $persian-green;
         a {
           text-decoration: none;
           text-transform: uppercase;
-          color: $links-color;
-          &:hover {
-            color: $links-color-hover;
-          }
         }
       }
     }
   }
   section {
     height: 100vh;
+    &.coming__soon {
+      display: grid;
+      place-content: center;
+      a {
+        font-size: 4rem;
+      }
+      &::after {
+        content: "coming soon";
+        font-size: 8rem;
+      }
+    }
   }
   h1 {
     text-align: center;

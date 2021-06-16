@@ -8,9 +8,11 @@ import WorkSection from "./sections/WorkSection";
 function App() {
   return (
     <div id="app">
-      <h1>Coming Soon</h1>
-      <a href="/portfolio">Portfolio</a>
-      {/* <Nav />
+      <Nav />
+      <section className="coming__soon">
+        <a href="/portfolio">Portfolio</a>
+      </section>
+      {/*
       <AboutSection />
       <WorkSection />
       <ContactSection /> */}
