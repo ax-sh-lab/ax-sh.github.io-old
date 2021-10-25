@@ -1,6 +1,150 @@
 name: Anonymous
 stacks:
-  - reactjs
-  - nextjs
-  - gatsbyjs
-  - nestjs
+    Web Development Stacks:
+      - redux
+      - redux-toolkit
+      - reactjs
+      - nextjs
+      - gatsbyjs
+      - nestjs
+      - bootstrap
+      - tailwindcss
+      - foundation
+      - storybook
+      - denojs
+      - nodejs
+      - nestjs
+      - express
+      - jquery
+      - typescript
+      - javascript
+      - html5
+      - css3
+      - sass
+      - django
+      - flask
+      - postgresql
+      - neo4j
+      - threejs
+      - d3js
+      - php
+      - angularjs
+      - socketio
+#      - nginx
+    Graphics:
+      - aftereffects
+      - photoshop
+      - illustrator
+      - premierepro
+      - xd
+      - figma
+      - inkscape
+      - gimp
+    Tools:
+      - bash
+      - npm
+      - pnpm
+      - yarn
+      - git
+      - plop
+    Machine Learning:
+    - numpy
+    - pandas
+    - tensorflow
+    - pytorch
+    - jupyter
+    Links:
+      - behance
+      - codepen
+      - bitbucket
+      - facebook
+      - twitter
+      - linkedin
+      - github
+      - gitlab
+      - gitter
+    Services:
+      - amazonwebservices
+      - circleci
+      - digitalocean
+      - eleventy
+      - firebase
+      - googlecloud
+      - heroku
+      - google
+    Mobile Development:
+      - android
+      - dart
+      - flutter
+      - Android Studio
+    Development Tools:
+      - docker
+      - debian
+      - vscode
+      - webstorm
+      - intellij
+    Browsers:
+      - firefox
+      - chrome
+      - safari
+    Others:
+    - opengl
+    - apple
+    - arduino
+    - atom
+    - babel
+    - electron
+    - filezilla
+    - gcc
+    - go
+    - gradle
+    - graphql
+    - groovy
+    - handlebars
+
+
+    - jamstack
+    - java
+    - jasmine
+    - jest
+    - jira
+
+    - kotlin
+    - kubernetes
+    - lua
+    - linux
+    - materialui
+    - matlab
+    - markdown
+    - mongodb
+    - mysql
+    - msdos
+    - processing
+    - putty
+    - pycharm
+    - python
+    - raspberrypi
+    - qt
+    - redis
+    - rocksdb
+    - rust
+
+    - salesforce
+    - rstudio
+    - scala
+    - sequelize
+    - shopware
+    - slack
+    - sourcetree
+    - svelte
+    - swift
+    - trello
+    - ubuntu
+    - unity
+    - unix
+    - uwsgi
+    - vim
+    - vuejs
+    - vscode
+    - webpack
+    - webstorm

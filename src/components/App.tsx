@@ -16,12 +16,29 @@ function Stacks({ list }: { list: string[] }) {
   );
 }
 
+function StacksAndTools({ list }: { list: any }) {
+  const groups = Object.entries(list);
+  return (
+    <>
+      {groups.map(([key, value]) => {
+        return (
+          <div>
+            <h1>{key}</h1>
+            <Stacks list={value} />
+          </div>
+        );
+      })}
+    </>
+  );
+}
+
 function App() {
   return (
     <>
       <Layout>
         {data.name}
-        <Stacks list={data.stacks} />
+        <StacksAndTools list={data.stacks} />
+        {/*<Stacks />*/}
         <img src={logo} alt={"logo"} />
       </Layout>
     </>
