@@ -2,10 +2,10 @@ name: Anonymous
 stacks:
     Web Development Stacks:
       - redux
-      - redux-toolkit
-      - reactjs
+#      - redux-toolkit
+      - react
       - nextjs
-      - gatsbyjs
+      - gatsby
       - nestjs
       - bootstrap
       - tailwindcss
