@@ -3,16 +3,23 @@ import "./App.scss";
 import Layout from "./Layout/Layout";
 // @ts-ignore
 import data from "../assets/data.yml";
+import StackIcon from "./StackIcon/StackIcon";
 
 console.log(data);
 
 function Stacks({ list }: { list: string[] }) {
   return (
-    <ul>
+    <ol>
       {list.map((item: string) => {
-        return <li>{item}</li>;
+        return (
+          <li>
+            <div className={"stack"}>
+              <StackIcon name={item} />
+            </div>
+          </li>
+        );
       })}
-    </ul>
+    </ol>
   );
 }
 
