@@ -1,1 +1,6 @@
 name: Anonymous
+stacks:
+  - reactjs
+  - nextjs
+  - gatsbyjs
+  - nestjs

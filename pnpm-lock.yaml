@@ -6,6 +6,7 @@ specifiers:
   '@types/react-dom': ^17.0.0
   '@vitejs/plugin-react': ^1.0.0
   gh-pages: ^3.2.3
+  prettier: ^2.4.1
   react: ^17.0.0
   react-dom: ^17.0.0
   sass: ^1.43.3
@@ -23,6 +24,7 @@ devDependencies:
   '@types/react-dom': 17.0.10
   '@vitejs/plugin-react': 1.0.5
   gh-pages: 3.2.3
+  prettier: 2.4.1
   typescript: 4.4.4
   vite: 2.6.10_sass@1.43.3
 
@@ -1056,6 +1058,12 @@ packages:
       nanoid: 3.1.30
       picocolors: 1.0.0
       source-map-js: 0.6.2
+    dev: true
+
+  /prettier/2.4.1:
+    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /react-dom/17.0.2_react@17.0.2:
